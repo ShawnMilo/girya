@@ -12,7 +12,7 @@ func LbsToKg(lbs float64) float64 {
 
 // KgToLbs converts kilograms to pounds
 func KgToLbs(lbs float64) float64 {
-	return lbs / 2.20462
+	return lbs * 2.20462
 }
 
 // Kettlebell describes the kettlebell
